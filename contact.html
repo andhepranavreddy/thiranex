@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Contact Pranav Reddy">
+    <meta name="keywords" content="contact, portfolio, student">
+    <meta name="author" content="Pranav Reddy">
+
+    <title>Pranav Portfolio - Contact</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav aria-label="Main Navigation">
+            <div class="logo">Pranav Portfolio</div>
+
+            <ul class="nav-links">
+                <li><a href="index.html" aria-label="Go to Home Page">Home</a></li>
+                <li><a href="about.html" aria-label="Go to About Page">About</a></li>
+                <li><a href="projects.html" aria-label="Go to Projects Page">Projects</a></li>
+                <li><a href="contact.html" aria-label="Go to Contact Page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <section class="contact-section">
+            <h1>Contact Me</h1>
+            <p>Feel free to contact me using the form below.</p>
+
+            <!-- Contact Form -->
+            <form id="contactForm" aria-label="Contact Form">
+
+                <label for="name">Full Name</label>
+                <input 
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <label for="email">Email Address</label>
+                <input 
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Write your message"
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © 2026 Pranav Reddy Portfolio. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
